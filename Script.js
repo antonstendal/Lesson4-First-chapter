@@ -1,11 +1,11 @@
-//Найти emeil с помощью регулярного выражения.
+//РќР°Р№С‚Рё emeil СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРіСѓР»СЏСЂРЅРѕРіРѕ РІС‹СЂР°Р¶РµРЅРёСЏ.
 var str = 'realyscript@gmail.com mail adress';
 re = /^([a-z0-9_\.-]+)@([a-z0-9_\.-]+)\.([a-z\.]{2,6})$/;
 found = str.match(re);
 console.log(found);
 
 
-//Числа Фибоначчи
+//Р§РёСЃР»Рѕ Р¤РёР±РѕРЅР°С‡С‡Рё
 function fibonacci(n) {   
     if (n < 2) {
         if (n == 0) {
